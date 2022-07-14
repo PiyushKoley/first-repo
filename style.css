@@ -1,0 +1,37 @@
+div.container{
+    position: relative;
+    font-size: 30px;
+    padding: 0px;
+}
+div.topLeft{
+    position: absolute;
+    left: 5px;
+    top: 8px;
+}
+div.topRight{
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+div.bottomLeft{
+    position: absolute;
+    bottom: 8px;
+    left: 5px;
+}
+div.bottomRight{
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+}
+div.center{
+    position: absolute;
+    top: 450px;
+    left: 700px;
+}
+img{
+    height: auto;
+    width: 100%;
+    /* opacity: 0.4; */
+    z-index: -1;
+    margin: none;
+}
